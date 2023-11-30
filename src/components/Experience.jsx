@@ -7,7 +7,7 @@ import nextjs from '../assests/nextjs.png'
 import node from '../assests/node.png'
 import reactImage from '../assests/react.png'
 import tailwind from '../assests/tailwind.png'
-
+import laravel from "../assests/portfolio-images/laravel.png"
 const Experience = () => {
     const technologies = [
         {
@@ -62,6 +62,13 @@ const Experience = () => {
             id: 9,
             src: node,
             title: 'Node',
+            style: 'shadow-lime-300'
+        },
+
+        {
+            id: 10,
+            src: laravel,
+            title: 'Laravel',
             style: 'shadow-lime-300'
         },
     ]
