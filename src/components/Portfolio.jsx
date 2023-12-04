@@ -3,7 +3,7 @@ import installNode from '../assests/portfolio-images/download.jpeg';
 import navbar from '../assests/portfolio-images/download (15).jpeg';
 import reactParallax from '../assests/portfolio-images/reactParallax.jpg';
 import reactSmooth from '../assests/portfolio-images/reactSmooth.jpg';
-import reactWeather from '../assests/portfolio-images/reactWeather.jpg';
+import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
 
 //  codar , to , kingship , mypromopshere ,
 
@@ -37,7 +37,8 @@ const Portfolio = () => {
         },
         {
             id: 6,
-            src: reactWeather
+            src: reactWeather,
+            link:"https://robo-advisor.netlify.app/"
         },
     ]
 
