@@ -1,7 +1,7 @@
 import { FaYoutube } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { BsPersonLinesFill } from 'react-icons/bs'
-
+import { FaWhatsapp } from "react-icons/fa";
 const SocialLinks = () => {
 
     const links = [
@@ -21,19 +21,21 @@ const SocialLinks = () => {
                     Gmail <SiGmail size={30} />
                 </>
             ),
-            href: 'https://gmail.com'
+            href: 'https://mail.google.com/mail/u/0/#inbox'
         },
         {
             id: 3,
             child: (
                 <>
-                    Resume <BsPersonLinesFill size={30} />
+                    Contact  <FaWhatsapp  size={30} />
                 </>
             ),
-            href: '/resume.pdf',
-            download: true
+            href: 'https://wa.link/n9gupu',
+            // download: true
         },
     ]
+   
+    // https://wa.link/n9gupu
 
     return (
         <div className='hidden xl:flex flex-col top-[35%] left-0 fixed'>
