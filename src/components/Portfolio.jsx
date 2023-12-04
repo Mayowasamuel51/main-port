@@ -2,7 +2,7 @@ import arrayDestruct from '../assests/portfolio-images/download (1).jpeg';
 import installNode from '../assests/portfolio-images/download.jpeg';
 import navbar from '../assests/portfolio-images/download (15).jpeg';
 import reactParallax from '../assests/portfolio-images/reactParallax.jpg';
-import reactSmooth from '../assests/portfolio-images/reactSmooth.jpg';
+import reactSmooth from '../assests/portfolio-images/aSDAFGHMJ,.K.jpeg';
 import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
 
 //  codar , to , kingship , mypromopshere ,
@@ -33,6 +33,7 @@ const Portfolio = () => {
         },
         {
             id: 5,
+            link:"https://ade-details.netlify.app/",
             src: reactSmooth
         },
         {
