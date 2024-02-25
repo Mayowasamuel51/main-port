@@ -1,7 +1,7 @@
 import HeroImage from '../assests/hero.png';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import { Link } from 'react-scroll';
-import photo from "../assests/portfolio-images/hhh.jpg"
+import photo from "../assests/wha.jpg"
 // import ope from "./WhatsApp Image 2023-11-13 at 19.47.48_d733658d.jpg"
 // import opee from "./WhatsApp Image 2023-11-14 at 10.37.39_b0ec89b1.jpg"
 const Home = () => {

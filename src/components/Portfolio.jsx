@@ -4,12 +4,13 @@ import navbar from '../assests/portfolio-images/download (15).jpeg';
 import reactParallax from '../assests/portfolio-images/reactParallax.jpg';
 import reactSmooth from '../assests/portfolio-images/aSDAFGHMJ,.K.jpeg';
 import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
-
+import errordeve from "../assests/portfolio-images/apidownload (6).jpg"
 //  codar , to , kingship , mypromopshere ,
 
 const Portfolio = () => {
 
     const portfolios = [
+        
         {
             id: 1,
             src: arrayDestruct,
@@ -41,6 +42,11 @@ const Portfolio = () => {
             src: reactWeather,
             link:"https://robo-advisor.netlify.app/"
         },
+        {
+            id:7,
+            src:errordeve,
+            link:"https://errordeve.online"
+        }
     ]
 
     return (
