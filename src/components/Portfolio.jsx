@@ -5,6 +5,7 @@ import reactParallax from '../assests/portfolio-images/reactParallax.jpg';
 import reactSmooth from '../assests/portfolio-images/aSDAFGHMJ,.K.jpeg';
 import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
 import errordeve from "../assests/portfolio-images/apidownload (6).jpg"
+import eva from "../assests/download.jpeg"
 //  codar , to , kingship , mypromopshere ,
 
 const Portfolio = () => {
@@ -46,6 +47,11 @@ const Portfolio = () => {
             id:7,
             src:errordeve,
             link:"https://errordeve.online"
+        },
+        {
+            id:8,
+            src:eva,
+            link:'https://www.evatouchbeauty.com/'
         }
     ]
 
