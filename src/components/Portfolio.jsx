@@ -6,6 +6,7 @@ import reactSmooth from '../assests/portfolio-images/aSDAFGHMJ,.K.jpeg';
 import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
 import errordeve from "../assests/portfolio-images/apidownload (6).jpg"
 import eva from "../assests/download.jpeg"
+import bams from "../assests/portfolio-images/bams.png"
 //  codar , to , kingship , mypromopshere ,
 
 const Portfolio = () => {
@@ -52,6 +53,11 @@ const Portfolio = () => {
             id:8,
             src:eva,
             link:'https://www.evatouchbeauty.com/'
+        },
+        {
+            id:9,
+            src:bams,
+            link:'https://www.bamsvisuals.com/'
         }
     ]
 
