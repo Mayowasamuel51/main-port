@@ -7,14 +7,22 @@ import reactWeather from '../assests/portfolio-images/aaaa.jpeg';
 import errordeve from "../assests/portfolio-images/apidownload (6).jpg"
 import eva from "../assests/download.jpeg"
 import bams from "../assests/portfolio-images/bams.png"
+import mypromosphere from  '../assests/loop.jpg'
 //  codar , to , kingship , mypromopshere ,
 
 const Portfolio = () => {
 
     const portfolios = [
+        {
+            id:1,
+            src:mypromosphere,
+            link:'https://www.mypromosphere.com/'
+
+
+        },
         
         {
-            id: 1,
+            id: 2,
             src: arrayDestruct,
             link:'https://www.kingshiptechnologies.com/'
            
